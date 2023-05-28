@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Meta Generator</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <nav>
+    <img src="/yt_logo.png" alt="YouTube Logo">
+    <h1>YouTube Video Data Generator</h1>
+  </nav>
+
+  <div class="container">
+
+    <form class="meta-form">
+      <h2>Generate Meta Data</h2>
+      <label for="title">
+        <span>Video Title:</span>
+        <input type="text" name="title">
+        <button>generate meta data</button>
+      </label>
+    </form>
+  
+    <div class="description">
+      <p>Your Video Description...</p>
+    </div>
+    <div class="tags">
+      <p>Your Video Tags...</p>
+    </div>
+  
+    <form class="image-form">
+      <h2>Generate Thumbnail Image</h2>
+      <label for="image">
+        <span>Describe the image</span>
+        <input type="text" name="prompt">
+        <button>generate thumbnail</button>
+      </label>
+    </form>
+
+    <div class="thumbnail">
+      <img src="https://place-hold.it/512x512" alt="thumbnail">
+    </div>
+    
+  </div><!-- end container -->
+
+  <script src="/index.js"></script>
+</body>
+</html>
