@@ -1,5 +1,5 @@
 const express = require('express')
-const { generateMeta, generateImage } = require('../controllers/openaiController')
+const { generateMeta, generateImage } = require('./controllers/openaiController')
 
 // app setup
 const app = express()
